@@ -101,17 +101,30 @@ main {
 .bouton {
   line-height: 200px;
 }
-button {
-  color: #1d401f;
-  background-color: white;
-  border: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  height: 50px;
-}
+
 .don p {
   margin: 0;
   padding: 0;
   display: block;
   text-align: left;
   padding: 6px 20px;
+}
+
+button {
+  font-size: 16px;
+  background-color: #447322;
+  color: white;
+  padding: 10px;
+  font-family: "Barlow", sans-serif;
+  border: 1px solid #447322;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 50px;
+}
+button:hover,
+button:focus {
+  color: #447322;
+  background-color: white;
+  border: 1px solid #447322;
+  transition: 0.3s;
+  outline: none;
 }
