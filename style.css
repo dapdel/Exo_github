@@ -35,15 +35,23 @@ header{
 }
 main {
   text-align: center;
-  color: white;
-  margin-top: 200px;
+  color: black;
+  margin: 100px auto;
   font-size: large;
+  width: 70%;
+  background-color:white;
+  padding-bottom: 60px;
 }
 .centrale {
   padding: 30px;
-  background-color: rgb(255, 255, 255, 0.5);
-  width: 50%;
   margin: auto;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 24px;
+    margin-bottom: 30px;
 }
 nav {
   width: 50%;
@@ -70,6 +78,31 @@ li a:hover{
     border-bottom: 1px solid #7ABF36; 
     color: #7ABF36;
     transition: 0.3s;
+}
+.photoaccueil{
+    width: 300px;
+    height: auto;
+    margin:0 30px 40px 30px;
+}
+.phototexte{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.txt{
+    width: 40%;
+    text-align: left;
+}
+.txt p:first-child{
+    margin-top: 0;
+}
+.txt1{
+    text-align: right;
+    width: 40%;
+}
+.txt1 p:first-child{
+    margin-top: 0;
 }
 
 
