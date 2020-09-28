@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="comptestyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Connexion</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div><img class="logo" src="madala.png" alt="logo" /></div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="dons.html">Dons</a></li>
+            <li id="connexion"><a href="connexion.html">Connexion</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="containercompte">
+        <h1>Bonjour Justine,</h1>
+        <div class="profile">
+          <div class="photoprofile">
+            <img class="pprofil" src="photoprofil.jpg" alt="profil" />
+          </div>
+          <div class="info">
+            <p class="title">Nom</p>
+            <p class="infoNom">Justine</p>
+            <p class="title">Prénom</p>
+            <p class="infoPrenom">Dupont</p>
+            <p class="title">Région</p>
+            <p class="infoRegion">Bruxelles-Etterbeek</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.8308829419716!2d4.40091881595405!3d50.83429636751287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4b25e212641%3A0xc5aad710932cb290!2sAvenue%20de%20l&#39;Arm%C3%A9e%20100%2C%201040%20Etterbeek!5e0!3m2!1sfr!2sbe!4v1601293240476!5m2!1sfr!2sbe"
+              width="600"
+              height="450"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="donstart">
+          <h2>Commencez à donner !</h2>
+          <div class="entreedons">
+            <div class="imgdons"><i class="fas fa-camera"></i></div>
+            <form class="infosdons">
+              <div class="nomPlante">
+                <label for="nom_plante">Nom de la plante :</label>
+                <input type="text" />
+              </div>
+              <div class="quantité_plante">
+                <label for="quatity">Quantité:</label>
+                <input type="text" />
+              </div>
+              <div class="age_plante">
+                <label for="age">Âge de la plante:</label>
+                <input type="text" />
+              </div>
+              <div class="raison_don">
+                <label for="raison">Raison du don:</label>
+                <input type="text" />
+              </div>
+              <button type="submit">Publiez votre don</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

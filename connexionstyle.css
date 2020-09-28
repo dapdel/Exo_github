@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Barlow", sans-serif;
+  margin: 0;
+}
+header{
+    box-shadow:  0px 3px 3px rgba(165, 164, 164, 0.6);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.container {
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+.logo {
+  width: 150px;
+  height: auto;
+}
+nav{
+    width: 50%;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    width: 100%;   
+    justify-content: flex-end;
+}
+li a {
+    padding: 10px 45px;
+    border-right: 1px solid #1D401F;
+    text-decoration: none;
+    color: rgb(9, 37, 9);
+    border-bottom: 1px solid transparent; 
+    transition: 0.3s;
+}
+li:last-child a{
+    border-right: none;
+}
+li a:hover{
+    border-bottom: 1px solid #7ABF36; 
+    color: #7ABF36;
+    transition: 0.3s;
+}
+.connexionContainer{
+    margin: 100px auto 0 auto;
+    padding: 45px 0;
+    display: flex;
+    width: 70%;  
+}
+.seconnecter{
+    width: 40%;
+    background-color: white;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.formulaire{
+    padding: 15px 15px 30px 15px;
+    box-shadow:  3px 3px 5px rgba(165, 164, 164, 0.8);
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    margin-bottom: 15px;
+    width: 40%;
+    display: block;
+    outline: none;
+    padding: 5px;
+    border: none;
+    box-shadow:  2px 2px 5px rgba(165, 164, 164,0.8);
+    font-size: 16px;
+}
+label{
+    margin-bottom: 7px;
+    display: block;
+}
+img{
+    width: 550px;
+    height: auto;
+}
+h2{
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+button{
+    font-size: 16px;
+    background-color: #447322;
+    color: white;
+    padding: 10px;
+    font-family: "Barlow", sans-serif;
+    border: 1px solid #447322 ;
+    
+}
+button:hover, button:focus{
+    color: #447322;
+    background-color: white;
+    border: 1px solid #447322 ;
+    transition: 0.3s;
+    outline: none;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+button:hover a{
+    color: #447322;
+}

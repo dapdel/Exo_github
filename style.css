@@ -15,7 +15,9 @@ header{
     position: fixed;
     top: 0;
     background-color: white;
-    padding: 15px 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
 }
 .container {
   display: flex;
@@ -67,4 +69,7 @@ li:last-child a{
 li a:hover{
     border-bottom: 1px solid #7ABF36; 
     color: #7ABF36;
+    transition: 0.3s;
 }
+
+
