@@ -4,6 +4,9 @@
 }
 body {
   font-family: "Barlow", sans-serif;
+  background-image: url("fond.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .container {
   display: flex;
@@ -40,4 +43,16 @@ li:last-child a {
 li a:hover {
   border-bottom: 1px solid rgb(9, 37, 9);
   transition: 2s;
+}
+main {
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+  font-size: large;
+}
+.centrale {
+  padding: 30px;
+  background-color: rgb(255, 255, 255, 0.5);
+  width: 50%;
+  margin: auto;
 }
