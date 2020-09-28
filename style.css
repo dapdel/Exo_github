@@ -7,6 +7,15 @@ body {
   background-image: url("fond.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 0;
+}
+header{
+    box-shadow:  0px 3px 3px rgb(165, 164, 164);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    padding: 15px 0;
 }
 .container {
   display: flex;
@@ -22,28 +31,6 @@ body {
   width: 150px;
   height: auto;
 }
-nav {
-  width: 50%;
-}
-ul {
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  width: 100%;
-}
-li a {
-  padding: 10px 45px;
-  border-right: 1px solid rgb(9, 37, 9);
-  text-decoration: none;
-  color: rgb(9, 37, 9);
-}
-li:last-child a {
-  border-right: none;
-}
-li a:hover {
-  border-bottom: 1px solid rgb(9, 37, 9);
-  transition: 2s;
-}
 main {
   text-align: center;
   color: white;
@@ -55,4 +42,30 @@ main {
   background-color: rgb(255, 255, 255, 0.5);
   width: 50%;
   margin: auto;
+}
+nav{
+    width: 50%;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    width: 100%;   
+    justify-content: flex-end;
+}
+li a {
+    padding: 10px 45px;
+    border-right: 1px solid #1D401F;
+    text-decoration: none;
+    color: rgb(9, 37, 9);
+    border-bottom: 1px solid transparent; 
+    transition: 0.3s;
+}
+li:last-child a{
+    border-right: none;
+}
+li a:hover{
+    border-bottom: 1px solid #7ABF36; 
+    color: #7ABF36;
+    
 }
