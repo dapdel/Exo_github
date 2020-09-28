@@ -6,6 +6,7 @@ body {
   font-family: "Barlow", sans-serif;
   background-image: url("fond.jpg");
   background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   margin: 0;
 }
