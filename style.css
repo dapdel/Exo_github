@@ -10,6 +10,7 @@ header{
     box-shadow:  0px 3px 3px rgb(165, 164, 164);
     width: 100%;
     position: fixed;
+    background-color: white;
 }
 .container{
     display: flex;
@@ -38,14 +39,17 @@ ul{
 }
 li a {
     padding: 10px 45px;
-    border-right: 1px solid rgb(9, 37, 9);
+    border-right: 1px solid #1D401F;
     text-decoration: none;
     color: rgb(9, 37, 9);
+    border-bottom: 1px solid transparent; 
+    transition: 0.3s;
 }
 li:last-child a{
     border-right: none;
 }
 li a:hover{
-    border-bottom: 1px solid rgb(9, 37, 9); 
-    transition: 2s;
+    border-bottom: 1px solid #7ABF36; 
+    color: #7ABF36;
+    
 }
